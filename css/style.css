@@ -1,0 +1,241 @@
+/* dop style */
+ul, li{
+    list-style: none;
+}
+body{
+    margin: 0; 
+    font-family: 'Syne Mono', monospace;
+    font-family: 'Lobster', cursive;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    font-size: 100px;
+    font-family: Syne Mono;
+    color: red;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 375px;
+}
+.color__wrapper{
+    background: rgb(94, 236, 236);
+
+}
+
+/* buttons & hovers */
+
+.plus{
+
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-family: Lobster;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.plus > img {
+    height: 100px;
+}
+.plus:hover{
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+.minus{
+
+
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-family: Lobster;
+    margin-bottom: 10px;
+}
+.minus > img {
+    height: 100px;
+}
+.minus:hover{
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+.reset{
+
+
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-family: Lobster;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.reset > img {
+    height: 100px;
+}
+.reset:hover{
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+.plusclick1{
+
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-family: Lobster;
+    margin-bottom: 10px;
+}
+.plusclick1:hover{
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+.plusclickrandom{
+
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-family: Lobster;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.plusclickrandom:hover{
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.plusclick10{
+
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-family: Lobster;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.plusclick10:hover{
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+.plusclick100{
+
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-family: Lobster;
+    margin-bottom: 10px;
+}
+.plusclick100:hover{
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+.plusclick1000{
+
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-family: Lobster;
+    margin-right: 10px;
+}
+.plusclick1000:hover{
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+.plusclick10000{
+
+
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-family: Lobster;
+}
+.plusclick10000:hover{
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+.all__buttons{
+    background-color: red;
+    color: white;
+} 
+.all__buttons > img{
+    height: 100px;
+} 
+.all__buttons:hover{
+    background-color: rgb(248, 63, 63);
+} 
+
+/* regulations */
+
+.all__buttons{
+    background-color: red;
+} 
+.all__buttons > img{
+    height: 100px;
+} 
+.all__buttons:hover{
+    background-color: rgb(248, 63, 63);
+} 
+.regulations__wrapper{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2F303A;
+}
+.regulations__list{
+    padding: 0;
+    margin: 0;
+    color: white;
+    width: 350px;
+}
+.regulations__title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.regulations__item--margin{
+    margin-bottom: 10px;
+}
+
+/* media screens */
+@media screen and (max-width: 480px){
+    .number{
+        font-size: 75px;
+    } 
+    .all__buttons{
+        width: 130px;
+        height: 130px;
+    } 
+    .all__buttons > img{
+
+        height: 80px;
+    } 
+    .plusclickrandom{
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    .plusclick1{
+        margin-right: 10px;
+    }
+    .reset{
+        margin-left: 10px;
+    }
+}
